@@ -10,7 +10,7 @@ This project will demonstrate your ability to run multiple models in the same ma
 
 3) Initialize the openvino toolkit by 
 
-Initialize the openVINO environment:-
+Initialize the openVINO environment:- <br>
 "C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat"
 
 4) Download the required models using the following commands:
