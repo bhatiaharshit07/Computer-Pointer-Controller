@@ -51,8 +51,8 @@ python main.py -fd <Path of xml file of face detection model>
 ```
 If you want to run app on GPU:-
 ```
-python main.py -f <Path of xml file of face detection model>
--fl <Path of xml file of facial landmarks detection model>
+python main.py -fd <Path of xml file of face detection model>
+-ld <Path of xml file of facial landmarks detection model>
 -hp <Path of xml file of head pose estimation model>
 -g <Path of xml file of gaze estimation model>
 -i <Path of input video file or enter cam for taking input video from webcam> 
@@ -60,8 +60,8 @@ python main.py -f <Path of xml file of face detection model>
 ```
 If you want to run app on FPGA:-
 ```
-python main.py -f <Path of xml file of face detection model>
--fl <Path of xml file of facial landmarks detection model>
+python main.py -fd <Path of xml file of face detection model>
+-ld <Path of xml file of facial landmarks detection model>
 -hp <Path of xml file of head pose estimation model>
 -g <Path of xml file of gaze estimation model>
 -i <Path of input video file or enter cam for taking input video from webcam> 
