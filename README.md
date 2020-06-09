@@ -9,32 +9,39 @@ This project will demonstrate your ability to run multiple models in the same ma
 2) Copy these files in the directories as stored here.
 
 3) Initialize the openvino toolkit by <br>
+```
     "C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat"
-
+```
 4) Download the required models using the following commands:
 
 1st Face Detection Model:-
+```
     python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-binary-0001"
-
+```
 2nd Facial Landmarks Detection Model:-
+```
     python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
-
+```
 3rd Head Pose Estimation Model:-
+```
     python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
-     
+```     
 4th Gaze Estimation Model:-
+```    
     python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
-
+```
 
 ## Demo
 
 1) Change the directory to src directory of project <br>
+```
 cd <project-path>/src
-
+```
 2) Run the main.py file
 Example:<br>
+```
 python main.py  -fd "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\face-detection-adas-binary-0001\FP32-INT1\face-detection-adas-binary-0001" -ld "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "C:\Users\Harshit\Desktop\starter\starter\bin\demo.mp4"  
-
+```
 python main.py -fd <Path of xml file of face detection model>
 -ld <Path of xml file of facial landmarks detection model>
 -hp <Path of xml file of head pose estimation model>
