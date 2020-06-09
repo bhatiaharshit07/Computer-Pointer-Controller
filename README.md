@@ -62,7 +62,7 @@ python main.py -f <Path of xml file of face detection model>
 
 Directory Structure of the project
 
-src folder contains all the source files:-
+\src folder contains all the source files:-
 
 1. main.py : Users need to run main.py file for running the app.
 
@@ -78,7 +78,7 @@ src folder contains all the source files:-
      
 7. mousecontroller.py: Contains MouseController class.
  
-bin folder contains demo video which user can use for testing the app.
+\bin folder contains demo video which user can use for testing the app.
 
 Following are commands line arguments that can use for while running the main.py file ` python main.py `:-
 
@@ -96,9 +96,10 @@ Following are commands line arguments that can use for while running the main.py
 For FP32: 
 python main.py  -fd "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\face-detection-adas-binary-0001\FP32-INT1\face-detection-adas-binary-0001" -ld "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\landmarks-regression-retail-0009\FP32\landmarks-regression-retail-0009" -hp "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\head-pose-estimation-adas-0001\FP32\head-pose-estimation-adas-0001" -ge "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\gaze-estimation-adas-0002\FP32\gaze-estimation-adas-0002" -i "C:\Users\Harshit\Desktop\starter\starter\bin\demo.mp4"
 
-For FP16:
+For FP16:<br>
+```
 python main.py  -fd "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\face-detection-adas-binary-0001\FP32-INT1\face-detection-adas-binary-0001" -ld "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "C:\Users\Harshit\Desktop\starter\starter\bin\demo.mp4"  
-
+```
 For GPU: Append -d GPU in the above command for the respective precesion.
 
 
