@@ -1,6 +1,6 @@
 # Computer Pointer Controller
 
-This project will demonstrates to run multiple models in the same machine and coordinate the flow of data between those models. In this project, we will use a gaze detection model to control the mouse pointer of your computer. We will be using the Gaze Estimation model to estimate the gaze of the user's eyes and change the mouse pointer position accordingly.
+This project runs multiple models in the same machine and coordinate the flow of data between those models. In this project, we will use a gaze detection model to control the mouse pointer of your computer. We will be using the Gaze Estimation model to estimate the gaze of the user's eyes and change the mouse pointer position accordingly.
 
 ## Project Set Up and Installation
 
