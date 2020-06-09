@@ -71,7 +71,7 @@ python main.py -fd <Path of xml file of face detection model>
 ## Documentation
 
 Directory Structure of the project
-![](./bin/Main-Directory.png)
+![](./bin/src-Directory.png)
 
 \src folder contains all the source files:-
 
