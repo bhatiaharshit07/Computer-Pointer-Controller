@@ -16,19 +16,19 @@ This project runs multiple models in the same machine and coordinate the flow of
 
 1st Face Detection Model:-
 ```
-    python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-binary-0001"
+    python "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\tools\model_downloader\downloader.py" --name "face-detection-adas-binary-0001"
 ```
 2nd Facial Landmarks Detection Model:-
 ```
-    python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
+    python "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\tools\model_downloader\downloader.py" --name "landmarks-regression-retail-0009"
 ```
 3rd Head Pose Estimation Model:-
 ```
-    python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
+    python "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\tools\model_downloader\downloader.py" --name "head-pose-estimation-adas-0001"
 ```     
 4th Gaze Estimation Model:-
 ```    
-    python openvinodirectory/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
+    python "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\tools\model_downloader\downloader.py" --name "gaze-estimation-adas-0002"
 ```
 
 ## Demo
@@ -40,7 +40,7 @@ cd <project-path>/src
 2) Run the main.py file
 Example:<br>
 ```
-python main.py  -fd "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\face-detection-adas-binary-0001\FP32-INT1\face-detection-adas-binary-0001" -ld "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "C:\Users\Harshit\Desktop\starter\starter\bin\demo.mp4"  
+python main.py  -fd "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\face-detection-adas-binary-0001\FP32-INT1\face-detection-adas-binary-0001" -ld "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "C:\Program Files (x86)\IntelSWTools\openvino_2020.3.194\deployment_tools\open_model_zoo\tools\downloader\intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "E:\Github\Computer-Pointer-Controller\bin\demo.mp4"  
 ```
 ```
 python main.py -fd <Path of xml file of face detection model>
