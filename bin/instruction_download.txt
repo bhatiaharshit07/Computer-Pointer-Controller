@@ -1,0 +1,11 @@
+python "C:\Program Files (x86)\Intel\openvino_2021\deployment_tools\tools\model_downloader\downloader.py" --name "face-detection-adas-0001"
+"C:\Program Files (x86)\Intel\openvino_2021\bin\setupvars.bat"
+python src/main.py -fd "intel\face-detection-adas-0001\FP32\face-detection-adas-0001" -ld "\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "bin\demo.mp4"
+
+
+
+
+"C:\Program Files (x86)\Intel\openvino_2021\bin\setupvars.bat"
+python src/main.py -fd "intel\face-detection-adas-0001\FP32\face-detection-adas-0001" -ld "E:\Github\Computer-Pointer-Controller\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009" -hp "intel\head-pose-estimation-adas-0001\FP16\head-pose-estimation-adas-0001" -ge "intel\gaze-estimation-adas-0002\FP16\gaze-estimation-adas-0002" -i "bin\demo.mp4"
+
+"E:\Github\Computer-Pointer-Controller\intel\landmarks-regression-retail-0009\FP16\landmarks-regression-retail-0009"
