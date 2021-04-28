@@ -12,7 +12,7 @@ This project runs multiple models in the same machine and coordinate the flow of
 ```
     "C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat"
 ```
-4) Download the required models using the following commands:
+4) Download the required models using the following commands (change the openvivo version with the version you downloaded):
 
 1st Face Detection Model:-
 ```
